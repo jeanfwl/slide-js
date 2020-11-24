@@ -154,7 +154,7 @@ export class Slide {
   }
 }
 
-export class SlideNav extends Slide {
+export default class SlideNav extends Slide {
   constructor(slide, slideWrapper) {
     super(slide, slideWrapper);
     this.bindControlEvents();
